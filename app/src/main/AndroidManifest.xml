@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coubustracker">
+    <!-- ✅ Declare permissions OUTSIDE the <application> tag -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoUBusTracker4">
+
+        <activity
+            android:name=".busscedule"
+            android:exported="false" />
+        <activity
+            android:name=".studentevebus7"
+            android:exported="false" />
+        <activity
+            android:name=".driverevebus7"
+            android:exported="false" />
+        <activity
+            android:name=".studentevebus6"
+            android:exported="false" />
+        <activity
+            android:name=".driverevebus6"
+            android:exported="false" />
+        <activity
+            android:name=".studentevebus5"
+            android:exported="false" />
+        <activity
+            android:name=".driverevebus5"
+            android:exported="false" />
+        <activity
+            android:name=".studentevebus4"
+            android:exported="false" />
+        <activity
+            android:name=".driverevebus4"
+            android:exported="false" />
+        <activity
+            android:name=".studentevebus3"
+            android:exported="false" />
+        <activity
+            android:name=".driverevebus3"
+            android:exported="false" />
+        <activity
+            android:name=".studentevebus2"
+            android:exported="false" />
+        <activity
+            android:name=".driverevebus2"
+            android:exported="false" />
+        <activity
+            android:name=".studentevebus1"
+            android:exported="false" />
+        <activity
+            android:name=".driverevebus1"
+            android:exported="false" />
+        <activity
+            android:name=".studentbluebus33"
+            android:exported="false" />
+        <activity
+            android:name=".driverbluebus33"
+            android:exported="false" />
+        <activity
+            android:name=".studentbluebus32"
+            android:exported="false" />
+        <activity
+            android:name=".driverbluebus32"
+            android:exported="false" />
+        <activity
+            android:name=".studentbluebus31"
+            android:exported="false" />
+        <activity
+            android:name=".driverbluebus31"
+            android:exported="false" />
+        <activity
+            android:name=".studentbluebus25"
+            android:exported="false" />
+        <activity
+            android:name=".driverbluebus25"
+            android:exported="false" />
+        <activity
+            android:name=".studentbluebus11"
+            android:exported="false" />
+        <activity
+            android:name=".driverbluebus11"
+            android:exported="false" />
+        <activity
+            android:name=".studentbluebus5"
+            android:exported="false" />
+        <activity
+            android:name=".driverbluebus5"
+            android:exported="false" />
+        <activity
+            android:name=".studentbluebus4"
+            android:exported="false" />
+        <activity
+            android:name=".driverbluebus4"
+            android:exported="false" />
+        <activity
+            android:name=".studentbluebus3"
+            android:exported="false" />
+        <activity
+            android:name=".driverbluebus3"
+            android:exported="false" />
+        <activity
+            android:name=".studentredbus10"
+            android:exported="false" />
+        <activity
+            android:name=".driverredbus10"
+            android:exported="false" />
+        <activity
+            android:name=".studentredbus8"
+            android:exported="false" />
+        <activity
+            android:name=".driverredbus8"
+            android:exported="false" />
+        <activity
+            android:name=".studentredbus7"
+            android:exported="false" />
+        <activity
+            android:name=".driverredbus7"
+            android:exported="false" />
+        <activity
+            android:name=".studentredbus6"
+            android:exported="false" />
+        <activity
+            android:name=".driverredbus6"
+            android:exported="false" />
+        <activity
+            android:name=".studentredbus5"
+            android:exported="false" />
+        <activity
+            android:name=".driverredbus5"
+            android:exported="false" />
+        <activity
+            android:name=".studentredbus4"
+            android:exported="false" />
+        <activity
+            android:name=".driverredbus4"
+            android:exported="false" />
+        <activity
+            android:name=".studentredbus3"
+            android:exported="false" />
+        <activity
+            android:name=".driverredbus3"
+            android:exported="false" />
+
+        <receiver android:name=".AutoDeleteReceiver" />
+
+        <activity
+            android:name=".studentredbus2"
+            android:exported="false" />
+        <activity
+            android:name=".driverredbus2"
+            android:exported="false" />
+        <activity
+            android:name=".StudentFirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DriverFirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

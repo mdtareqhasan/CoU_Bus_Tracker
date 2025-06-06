@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:paddingBottom="140dp"
+    android:clipToPadding="false"
+    android:background="@drawable/fbg5">
+
+
+
+    <LinearLayout
+        android:id="@+id/infoContainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/box_background"
+        android:elevation="4dp">
+
+        <Button
+
+            style="@style/InsideBusButton"
+            android:text="route:\n\nTime: 8:15 am - 9:50 am - 5:10 pm\n\nkandirpar- tomsombridge- Doulotpur- kotbari- campus\n" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/bluebus33" />
+
+        <TextView
+            android:id="@+id/tvDriverName"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Driver Name: "
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number: "
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:paddingBottom="12dp" />
+
+        <Button
+            android:id="@+id/tvLocationLink"
+            style="@style/InsideBusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Tap here to open live location"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="5sp"
+            android:layout_marginBottom="1dp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

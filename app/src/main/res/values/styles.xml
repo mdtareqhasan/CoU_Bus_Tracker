@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Red Bus Button -->
+    <style name="RedBusButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:backgroundTint">#673AB7</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+
+    </style>
+
+    <!-- Blue Bus Button -->
+    <style name="BlueBusButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:backgroundTint">#673AB7</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+
+    <style name="EveningBusButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:backgroundTint">#4D509F</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+
+
+    </style>
+
+    <style name="InsideBusButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:backgroundTint">#4D509F</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+
+
+    </style>
+
+    <!-- Bus Schedule Button -->
+    <style name="BusSceduleButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:backgroundTint">#673AB7</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

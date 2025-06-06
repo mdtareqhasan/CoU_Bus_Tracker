@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:contentDescription="Logo"
+        android:src="@drawable/driver" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/etDriverId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Driver ID"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/gray700"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray700"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:minHeight="48dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/gray700"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray700"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:backgroundTint="@color/popularpurple"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/white"/>
+</LinearLayout>

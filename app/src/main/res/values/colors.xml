@@ -1,0 +1,61 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#6200EE</color>             <!-- Deep Purple -->
+    <color name="colorPrimaryVariant">#3700B3</color>      <!-- Darker Purple -->
+    <color name="colorOnPrimary">#FFFFFF</color>           <!-- White text on primary -->
+    <color name="bluepurple">#8A2BE2</color>           <!-- White text on primary -->
+    <color name="popularpurple">#673AB7</color>
+    <color name="mainpurple">#9873EB</color>
+    <color name="latestpurple">#4D509F</color>
+    <color name="textpurple">#876CB0</color>
+    <color name="red">#CF0F47</color>
+    <color name="hint_gray">#888888</color>
+    <!-- White text on primary -->
+
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#03DAC5</color>           <!-- Teal -->
+    <color name="colorSecondaryVariant">#018786</color>    <!-- Darker Teal -->
+    <color name="colorOnSecondary">#000000</color>
+    <color name="stndgrey">#474747</color>
+    <color name="stndgreen">#00838f</color>
+
+
+    <!-- Tertiary Colors -->
+    <color name="colorTertiary">#FFB300</color>            <!-- Amber -->
+    <color name="colorOnTertiary">#000000</color>
+
+    <!-- Success, Warning, Error, Info -->
+    <color name="colorSuccess">#4CAF50</color>             <!-- Green -->
+    <color name="colorWarning">#FFC107</color>             <!-- Amber -->
+    <color name="colorError">#F44336</color>               <!-- Red -->
+    <color name="colorInfo">#2196F3</color>
+    <color name="darkblue">#1976D2</color> <!-- Blue -->
+    <color name="lightred">#FFACAC</color> <!-- Blue -->
+    <color name="lightblue">#C4D7FF</color> <!-- Blue -->
+
+    <!-- Background / Surface -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+
+    <!-- Neutral Shades -->
+    <color name="gray50">#FAFAFA</color>
+    <color name="gray100">#F5F5F5</color>
+    <color name="gray200">#EEEEEE</color>
+    <color name="gray300">#E0E0E0</color>
+    <color name="gray400">#BDBDBD</color>
+    <color name="gray500">#9E9E9E</color>
+    <color name="gray600">#757575</color>
+    <color name="gray700">#616161</color>
+    <color name="gray800">#424242</color>
+    <color name="gray900">#212121</color>
+
+    <!-- Transparent Variants -->
+    <color name="blackTransparent">#80000000</color>       <!-- 50% opacity black -->
+    <color name="whiteTransparent">#80FFFFFF</color>       <!-- 50% opacity white -->
+
+    <!-- General Purpose -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

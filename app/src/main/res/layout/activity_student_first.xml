@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fbg8"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0903A9F4"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- App Title -->
+
+        <!-- Red Bus Section Title -->
+
+        <!-- Red Bus Buttons -->
+
+
+
+        <Button
+
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="\nRed Buses list:\n"
+            android:backgroundTint="#CF0F47"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:columnCount="3">
+
+            <Button
+                android:id="@+id/redBus1"
+                style="@style/RedBusButton"
+                android:tag="red2"
+                android:text="BUS :2"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/redBus2"
+                style="@style/RedBusButton"
+                android:tag="red3"
+                android:text="bus: 3"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/redBus3"
+                style="@style/RedBusButton"
+                android:tag="red4"
+                android:text="bus: 4"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/redBus4"
+                style="@style/RedBusButton"
+                android:tag="red5"
+                android:text="bus: 5"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/redBus5"
+                style="@style/RedBusButton"
+                android:tag="red6"
+                android:text="bus: 6"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/redBus6"
+                style="@style/RedBusButton"
+                android:tag="red7"
+                android:text="bus: 7"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/redBus7"
+                style="@style/RedBusButton"
+                android:tag="red8"
+                android:text="bus: 8"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/redBus8"
+                style="@style/RedBusButton"
+                android:tag="red10"
+                android:text="bus: 10"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/redBus9"
+                style="@style/RedBusButton"
+                android:tag="red11"
+                android:text="Extra"
+                android:onClick="openLogin"/>
+        </GridLayout>
+
+        <!-- Blue Bus Section Title -->
+        <Button
+
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="\nBlue Buses list:\n"
+            android:backgroundTint="@color/darkblue"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"/>
+
+        <!-- Blue Bus Buttons -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="3"
+            android:useDefaultMargins="false">
+
+            <Button
+                android:id="@+id/blueBus1"
+                style="@style/BlueBusButton"
+                android:tag="blue3"
+                android:text="Bus :03"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/blueBus2"
+                style="@style/BlueBusButton"
+                android:tag="blue4"
+                android:text="bus: 04"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/blueBus3"
+                style="@style/BlueBusButton"
+                android:tag="blue5"
+                android:text="bus: 05"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/blueBus4"
+                style="@style/BlueBusButton"
+                android:tag="blue11"
+                android:text="bus: 11"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/blueBus5"
+                style="@style/BlueBusButton"
+                android:tag="blue25"
+                android:text="bus: 25"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/blueBus6"
+                style="@style/BlueBusButton"
+                android:tag="blue31"
+                android:text="bus: 31"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/blueBus7"
+                style="@style/BlueBusButton"
+                android:tag="blue32"
+                android:text="bus: 32"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/blueBus8"
+                style="@style/BlueBusButton"
+                android:tag="blue33"
+                android:text="bus: 33"
+                android:onClick="openLogin"/>
+
+            <Button
+                android:id="@+id/blueBus9"
+                style="@style/BlueBusButton"
+                android:text="Extra1"
+                android:onClick="openLogin"/>
+        </GridLayout>
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="\nEvening buses list:\n"
+            android:backgroundTint="#018786"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"/>
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:useDefaultMargins="false">
+
+            <Button
+                android:id="@+id/eveBus1"
+                style="@style/EveningBusButton"
+                android:tag="eve1"
+                android:onClick="openLogin"
+                android:text="Time: 7:00 PM\n\nCampus-Policeline-Eidgah" />
+
+            <Button
+                android:id="@+id/eveBus2"
+                style="@style/EveningBusButton"
+                android:tag="eve2"
+                android:onClick="openLogin"
+                android:text="Time: 7:30 PM\n\n(policeline)" />
+
+            <Button
+                android:id="@+id/eveBus3"
+                style="@style/EveningBusButton"
+                android:tag="eve3"
+                android:onClick="openLogin"
+                android:text="Time: 7:30 PM\n\n(tomosmbridge)" />
+
+            <Button
+                android:id="@+id/eveBus4"
+                style="@style/EveningBusButton"
+                android:tag="eve4"
+                android:onClick="openLogin"
+                android:text="Time: 7:30 PM\n\n(Dhormopur)" />
+
+            <Button
+                android:id="@+id/eveBus5"
+                style="@style/EveningBusButton"
+                android:tag="eve5"
+                android:onClick="openLogin"
+                android:text="Time: 8:00 PM\n\n(tomsombridge)" />
+
+            <Button
+                android:id="@+id/eveBus6"
+                style="@style/EveningBusButton"
+                android:tag="eve6"
+                android:onClick="openLogin"
+                android:text="Time: 8:30 PM\n\n(policeline)" />
+
+            <Button
+                android:id="@+id/eveBus7"
+                style="@style/EveningBusButton"
+                android:tag="eve7"
+                android:onClick="openLogin"
+                android:text="Time: 8:30 PM\n\n(tomsombridge)" />
+
+
+        </GridLayout>
+
+
+        <!-- Bus Schedule Button -->
+        <Button
+            android:id="@+id/busScheduleButton"
+            style="@style/BusSceduleButton"
+            android:tag="busscedule"
+            android:onClick="openLogin"
+            android:text="Bus Schedule" />
+    </LinearLayout>
+</ScrollView>
