@@ -27,6 +27,7 @@ captures/
 # APK and JARs
 *.apk
 *.jar
+*.hprof
 
 # IntelliJ specific
 .idea/caches/
